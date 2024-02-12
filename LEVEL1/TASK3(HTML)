@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UNITHERM</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background-image: url('erp.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    .moving-text {
+      animation: moveText 5s infinite;
+      color: #2c124a;
+    }
+    @keyframes moveText {
+      20% {
+        transform: translateX(0);
+      }
+      50% {
+        transform: translateX(90px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+    </style>
+</head>
+<body>
+
+<header>
+  <h1 class="moving-text"><b style="font-size: 9em;">UNITHERM</b></h1>
+  <nav>
+    <ul>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#cta">Get started</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="hero">
+    <h1><b style="font-size:2em;"><u>WELCOME TO OUR WEBSITE</u></b></h1>
+    <h1>We find solutions for daily problem as we are Introducing our groundbreaking IoT-based appliance controller—a cost-effective solution that puts control of your home's electrical devices in the palm of your hand, no matter where you are. This technology bridges the gap between industrialists and the middle class, making smart home automation accessible to all, while optimizing energy usage and convenience.</h1>
+    <!-- Image added below -->
+    <img src="logo.png" alt="Unitherm Appliance Controller" width="400px" class="popping-image">
+    <a href="#cta" class="btn">Learn More</a>
+  </section>
+  
+  <section id="features">
+    <h2><u>Features</u></h2>
+    <div class="feature">
+      <h1>FEATURES</h1>
+      <h2><b>Remote Control:</b> Users can easily turn appliances on or off from anywhere, offering unprecedented convenience.
+        <b>Energy Efficiency:</b> Real-time energy consumption data helps users make informed decisions, reducing wastage and cutting utility bills.
+        <b>Custom Scheduling:</b> Personalized schedules allow users to automate appliance usage, optimizing energy efficiency.
+        <b>Security:</b> Stringent data security measures protect user information and privacy.
+        <b>Affordability:</b>Our system is cost-effective, making it accessible to a wide range of users, from individuals to industrial setups.
+        <b>Scalability:</b> The system seamlessly accommodates a diverse network of devices and users, making it adaptable to various settings.
+        <b>Smart Alerts:</b> Users receive timely notifications about appliance status, potential malfunctions, or unusual energy consumption patterns.
+        <b>Integration:</b>Our solution integrates smoothly with other smart home devices and platforms, providing a comprehensive home automation experience.
+      </h2>
+    </div>
+    <div class="feature">
+      <h1><i><u>HOW IT IS USEFUL</u></i></h1>
+      <h2>The rise in available resources has brought forth an unexpected challenge: people frequently overlook the need to power down their household appliances. Our innovative system emerges as the definitive answer to this specific issue. While the broader challenge of network coverage persists in diverse settings like telecommunications, smart homes, and industries, our solution's primary focus is on addressing the prevalent problem of appliances being inadvertently left running.
+        This problem can occur in various scenarios, including telecom, smart homes, industries, rural areas, public Wi-Fi, healthcare, education, and small businesses, when providing affordable and extensive network coverage is challenging due to cost constraints or technical limitations.
+      </h2>
+    </div>
+  </section>
+
+  <section id="benefits">
+    <h2><u>BENEFITS</u></h2>
+    <div class="benefits">
+      <h2>
+        <B>Convenience:</B> Our system allows users to control their electrical appliances remotely, reducing the need for manual intervention and making life more convenient.
+        <B>Energy Savings:</B>Real-time monitoring and customizable scheduling enable users to optimize energy usage, leading to reduced utility bills and a more eco-friendly lifestyle.
+        <B>Accessibility:</B>B>Our cost-effective solution is designed to be scalable and adaptable, ensuring availability to a wide range of networks and users, from individual households to large industrial setups.
+        <B>Affordability:</B> Our cost-effective solution ensures that smart home automation is accessible to a wide range of users, offering value for money and long-term savings. 
+      </h2>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2><u>TESTIMONIALS</u></h2>
+    <div class="testimonial">
+      <blockquote><b>"Great service! Highly recommended.</b>"</blockquote>
+      <cite>- ria patel</cite>
+    </div>
+    <div class="testimonial">
+      <blockquote><b>"Amazing product! Couldn't be happier."</b></blockquote>
+      <cite>- rahul saha</cite>
+    </div>
+  </section>
+
+  <section id="cta">
+    <h2><u>GET STARTED</u></h2>
+    <h1><i>To know more click below:</i></h1>
+    <a href="https://unitherm.my.canva.site/heating-the-future-with-unitherm-" class="btn"><h1><b>whats new</b></h1></a>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2024 My Landing Page</p>
+</footer>
+
+</body>
+</html>
